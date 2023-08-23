@@ -4,8 +4,8 @@ import numpy as np
 
 cam = cv2.VideoCapture(0)
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades +'haarcascade_frontalface_default.xml')
-names = ["Neil Peter"]
-name_face = {"Neil Peter" : "faces/neil.jpg"}
+names = ["Neil Peter", "Sunil Peter"]
+name_face = {"Neil Peter" : "faces/neil.jpg", "Sunil Peter" : "faces/sunil.jpg"}
 encodings = []
 
 for name in names:
